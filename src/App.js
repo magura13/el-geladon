@@ -1,18 +1,21 @@
 import React from "react";
 import Header from "./components/Header";
-import Body from "./components/Body"
+import Body from "./components/Body";
+import Cards from "./components/Cards";
+import './App.css';
 
 function App() {
+  const brand = "Cannondale";
+  const model = "Carbon5";
+  const year = "2019";
+
   return (
-
-<>
-
-<Header />
-<Body />
-
-</>
-
-  )
+    <>
+      <Header />
+      <Body />
+      <Cards brand={brand} model={model} year={year} />
+    </>
+  );
 }
 
 export default App;

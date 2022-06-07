@@ -1,12 +1,14 @@
 import React from 'react';
+import BikePicture from './imgs/carbon5.jpg'
 
 function Body () {
+
     return (
         <>
         
 <section>
 
-<h2>A Melhor Loja do norte de minas</h2>
+<img src={BikePicture}/>
 
 </section>
         
