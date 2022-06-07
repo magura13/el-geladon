@@ -8,7 +8,7 @@ function Body () {
         
 <section>
 
-<img src={BikePicture}/>
+<img className="Bike__img" src={BikePicture}/>
 
 </section>
         

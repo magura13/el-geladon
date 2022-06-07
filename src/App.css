@@ -1,4 +1,27 @@
+/* no app.css uso o padrão CSS normal, não o camelCase usado no react */
+*{
+  padding: 0;
+  margin: 0;
+}
 
+.Logo {
+  width: 100%;
+}
+
+.Bike__img {
+  width: 100%;
+}
+
+.Header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.Card {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 5rem;
+}
 
 /* .App {
   text-align: center;

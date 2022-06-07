@@ -11,8 +11,8 @@ const styleCss = {
 
   return (
     <>
-      <header>
-        <img src={Logo} />
+        <img className="Logo" src={Logo} />
+      <header className="Header" style={styleCss}>
         <h1 style={{color: 'green', fontWeight: 800}}>Leo Bike Shop</h1>
         <h2 style={styleCss}>A Melhor Loja do norte de minas</h2>
       </header>

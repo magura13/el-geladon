@@ -8,7 +8,7 @@ function Cards(props){
 
 <section>
 
-<div>
+<div className="Card">
 
 <p>Marca:{props.brand}</p>
 <p>Modelo:{props.model}</p>
